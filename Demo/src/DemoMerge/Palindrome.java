@@ -7,9 +7,8 @@ public class Palindrome {
 	public void checkPalindrome() {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the string");
-		String string = scanner.next();
-		String reverse = "";
-		scanner.close();
+		String text = scanner.next();
+		String reverseText = "";
 		for (int value = string.length() - 1; value >= 0; value--) {
 
 			reverse = reverse + string.charAt(value);
