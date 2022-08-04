@@ -7,14 +7,14 @@ public class Palindrome {
 	public void checkPalindrome() {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the string");
-		String string = scanner.next();
-		String reverse = "";
+		String stringOne = scanner.next();
+		String reverseOne = "";
 		scanner.close();
-		for (int value = string.length() - 1; value >= 0; value--) {
+		for (int value = stringOne.length() - 1; value >= 0; value--) {
 
-			reverse = reverse + string.charAt(value);
+			reverseOne = reverseOne + stringOne.charAt(value);
 		}
-		if (string.equals(reverse)) {
+		if (stringOne.equals(reverseOne)) {
 			System.out.println("The given string is palindrome");
 		} else {
 			System.out.println("The given string not a palindrome");
