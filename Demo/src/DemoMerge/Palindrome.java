@@ -7,6 +7,7 @@ public class Palindrome {
 	public void checkPalindrome() {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the string");
+
 		String stringOne = scanner.next();
 		String reverseOne = "";
 		scanner.close();
